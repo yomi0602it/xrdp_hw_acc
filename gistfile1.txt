@@ -12,8 +12,8 @@ TESTED ON DEBIAN 9.13
 # Enable "Non-Free" repost in APT by adding "non-free" at the end of every URL in /etc/apt/sources.list
 
 # Target Versions and Folders
-XORGXRDP_VERSION=0.2.13
-XRDP_VERSION=0.9.13
+XORGXRDP_VERSION=0.9.19
+XRDP_VERSION=0.9.23.1
 BUILD_DIR=/tmp/xrdpbuild
 
 # Prepare Build Directory
