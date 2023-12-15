@@ -44,7 +44,7 @@ cd xrdp-*
 ./bootstrap
 ./configure --enable-glamor --enable-rfxcodec --enable-mp3lame --enable-fdkaac --enable-opus --enable-pixman --enable-fuse --enable-jpeg --enable-ipv6
 make
-make install
+make uninstall
 
 echo "XRDP has been installed"
 
@@ -59,7 +59,7 @@ cd xorgxrdp-*
 ./bootstrap
 ./configure --enable-glamor --enable-rfxcodec --enable-mp3lame --enable-fdkaac --enable-opus --enable-pixman --enable-fuse --enable-jpeg --enable-ipv6
 make
-make install
+make uninstall
 
 echo "XORGXRDP has been installed"
 
@@ -85,7 +85,7 @@ cd pulseaudio-module-xrdp*
 ./bootstrap  
 ./configure PULSE_DIR=$PULSEAUDIO_SRC_DIR
 make
-make install
+make uninstall
 
 ls $(pkg-config --variable=modlibexecdir libpulse)
 
